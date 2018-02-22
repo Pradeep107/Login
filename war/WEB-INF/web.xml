@@ -25,6 +25,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
 	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>com.notes.second</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/second</url-pattern>
+	</servlet-mapping>
+	<servlet>
 		<servlet-name>resets</servlet-name>
 		<servlet-class>com.notes.resets</servlet-class>
 	</servlet>
